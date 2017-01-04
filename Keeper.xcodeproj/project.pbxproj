@@ -8,28 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		74E286691E09261B004A99BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E286681E09261B004A99BE /* AppDelegate.swift */; };
-		74E2866B1E09261B004A99BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2866A1E09261B004A99BE /* ViewController.swift */; };
+		74E2866B1E09261B004A99BE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2866A1E09261B004A99BE /* MainViewController.swift */; };
 		74E2866E1E09261B004A99BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E2866C1E09261B004A99BE /* Main.storyboard */; };
 		74E286711E09261B004A99BE /* Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74E2866F1E09261B004A99BE /* Keeper.xcdatamodeld */; };
 		74E286731E09261B004A99BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E286721E09261B004A99BE /* Assets.xcassets */; };
 		74E286761E09261B004A99BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E286741E09261B004A99BE /* LaunchScreen.storyboard */; };
+		9801F8FD1E16137E00377C65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801F8FC1E16137E00377C65 /* User.swift */; };
+		9808FA341E16048500DAEE1C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98132DF41E14F3B500FB0E2D /* AdSupport.framework */; };
+		987403C71E1654300089302D /* MasterPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987403C61E1654300089302D /* MasterPasswordController.swift */; };
+		9876DC6F1E1AB892007E9EC4 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9876DC6E1E1AB892007E9EC4 /* LocalAuthentication.framework */; };
+		9876DC741E1ADF01007E9EC4 /* RoundedOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876DC731E1ADF01007E9EC4 /* RoundedOutlineView.swift */; };
+		9881AC901E13738700596F69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9881AC8F1E13738700596F69 /* LoginViewController.swift */; };
 		988473DB1E12B9510081C6CE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988473DA1E12B9510081C6CE /* MainTabBarController.swift */; };
-		989537A71E12233E00A8F70A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989537A61E12233E00A8F70A /* SecondViewController.swift */; };
-		989537A91E1223E900A8F70A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989537A81E1223E900A8F70A /* ThirdViewController.swift */; };
+		989537A71E12233E00A8F70A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989537A61E12233E00A8F70A /* PasswordViewController.swift */; };
+		989537A91E1223E900A8F70A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989537A81E1223E900A8F70A /* SignInViewController.swift */; };
+		98A473141E1CF22E00B7A25D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A473131E1CF22E00B7A25D /* SWRevealViewController.m */; };
+		98A473161E1D071E00B7A25D /* VaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A473151E1D071E00B7A25D /* VaultViewController.swift */; };
+		98EFF5601E14AB1300A95CC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98EFF55F1E14AB1300A95CC7 /* GoogleService-Info.plist */; };
+		C453BB153160DFB2F34D0913 /* Pods_Keeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03E9FE588196CDC0CED5ADC /* Pods_Keeper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74E286651E09261B004A99BE /* Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E286681E09261B004A99BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74E2866A1E09261B004A99BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E2866A1E09261B004A99BE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		74E2866D1E09261B004A99BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E286701E09261B004A99BE /* Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Keeper.xcdatamodel; sourceTree = "<group>"; };
 		74E286721E09261B004A99BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E286751E09261B004A99BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E286771E09261B004A99BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9801F8FC1E16137E00377C65 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		98132DF31E14ED7C00FB0E2D /* Keeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Keeper.entitlements; sourceTree = "<group>"; };
+		98132DF41E14F3B500FB0E2D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		987403C61E1654300089302D /* MasterPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPasswordController.swift; sourceTree = "<group>"; };
+		9876DC6E1E1AB892007E9EC4 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		9876DC731E1ADF01007E9EC4 /* RoundedOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedOutlineView.swift; sourceTree = "<group>"; };
+		9881AC8F1E13738700596F69 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		988473DA1E12B9510081C6CE /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		989537A61E12233E00A8F70A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		989537A81E1223E900A8F70A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		989537A61E12233E00A8F70A /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		989537A81E1223E900A8F70A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		98A473111E1CF22E00B7A25D /* Keeper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keeper-Bridging-Header.h"; sourceTree = "<group>"; };
+		98A473121E1CF22E00B7A25D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		98A473131E1CF22E00B7A25D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		98A473151E1D071E00B7A25D /* VaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaultViewController.swift; sourceTree = "<group>"; };
+		98EFF55F1E14AB1300A95CC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A83799F9E21B5C7389B2B1E8 /* Pods-Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keeper/Pods-Keeper.release.xcconfig"; sourceTree = "<group>"; };
+		DDE418DEFA2FF62F237C781F /* Pods-Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keeper/Pods-Keeper.debug.xcconfig"; sourceTree = "<group>"; };
+		F03E9FE588196CDC0CED5ADC /* Pods_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +62,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9876DC6F1E1AB892007E9EC4 /* LocalAuthentication.framework in Frameworks */,
+				9808FA341E16048500DAEE1C /* AdSupport.framework in Frameworks */,
+				C453BB153160DFB2F34D0913 /* Pods_Keeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A465CFD95681A51E495F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE418DEFA2FF62F237C781F /* Pods-Keeper.debug.xcconfig */,
+				A83799F9E21B5C7389B2B1E8 /* Pods-Keeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41733F32CA79346743290C1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9876DC6E1E1AB892007E9EC4 /* LocalAuthentication.framework */,
+				98132DF41E14F3B500FB0E2D /* AdSupport.framework */,
+				F03E9FE588196CDC0CED5ADC /* Pods_Keeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74E2865C1E09261B004A99BE = {
 			isa = PBXGroup;
 			children = (
 				74E286671E09261B004A99BE /* Keeper */,
 				74E286661E09261B004A99BE /* Products */,
+				19A465CFD95681A51E495F08 /* Pods */,
+				41733F32CA79346743290C1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,15 +111,17 @@
 		74E286671E09261B004A99BE /* Keeper */ = {
 			isa = PBXGroup;
 			children = (
-				989537A51E12226800A8F70A /* OtherResource */,
-				989537A41E12225E00A8F70A /* Controller */,
-				989537A31E12225500A8F70A /* View */,
+				98132DF31E14ED7C00FB0E2D /* Keeper.entitlements */,
 				989537A21E12224900A8F70A /* Model */,
+				989537A31E12225500A8F70A /* View */,
+				989537A41E12225E00A8F70A /* Controller */,
+				989537A51E12226800A8F70A /* OtherResource */,
 				74E286681E09261B004A99BE /* AppDelegate.swift */,
 				74E2866C1E09261B004A99BE /* Main.storyboard */,
 				74E286721E09261B004A99BE /* Assets.xcassets */,
 				74E286741E09261B004A99BE /* LaunchScreen.storyboard */,
 				74E286771E09261B004A99BE /* Info.plist */,
+				98EFF55F1E14AB1300A95CC7 /* GoogleService-Info.plist */,
 				74E2866F1E09261B004A99BE /* Keeper.xcdatamodeld */,
 			);
 			path = Keeper;
@@ -79,6 +130,7 @@
 		989537A21E12224900A8F70A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9801F8FC1E16137E00377C65 /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -86,6 +138,7 @@
 		989537A31E12225500A8F70A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9876DC731E1ADF01007E9EC4 /* RoundedOutlineView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -93,10 +146,13 @@
 		989537A41E12225E00A8F70A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				74E2866A1E09261B004A99BE /* ViewController.swift */,
-				989537A61E12233E00A8F70A /* SecondViewController.swift */,
-				989537A81E1223E900A8F70A /* ThirdViewController.swift */,
+				74E2866A1E09261B004A99BE /* MainViewController.swift */,
+				989537A61E12233E00A8F70A /* PasswordViewController.swift */,
+				989537A81E1223E900A8F70A /* SignInViewController.swift */,
 				988473DA1E12B9510081C6CE /* MainTabBarController.swift */,
+				9881AC8F1E13738700596F69 /* LoginViewController.swift */,
+				987403C61E1654300089302D /* MasterPasswordController.swift */,
+				98A473151E1D071E00B7A25D /* VaultViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -104,6 +160,9 @@
 		989537A51E12226800A8F70A /* OtherResource */ = {
 			isa = PBXGroup;
 			children = (
+				98A473121E1CF22E00B7A25D /* SWRevealViewController.h */,
+				98A473131E1CF22E00B7A25D /* SWRevealViewController.m */,
+				98A473111E1CF22E00B7A25D /* Keeper-Bridging-Header.h */,
 			);
 			name = OtherResource;
 			sourceTree = "<group>";
@@ -115,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74E2867A1E09261B004A99BE /* Build configuration list for PBXNativeTarget "Keeper" */;
 			buildPhases = (
+				431E46557E662F9EB30D9D4A /* [CP] Check Pods Manifest.lock */,
 				74E286611E09261B004A99BE /* Sources */,
 				74E286621E09261B004A99BE /* Frameworks */,
 				74E286631E09261B004A99BE /* Resources */,
+				19DB301511209F3782C817C1 /* [CP] Embed Pods Frameworks */,
+				F1924FCCB241C5508A156B99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,7 +202,14 @@
 				TargetAttributes = {
 					74E286641E09261B004A99BE = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K3SZSW5T69;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -168,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E286761E09261B004A99BE /* LaunchScreen.storyboard in Resources */,
+				98EFF5601E14AB1300A95CC7 /* GoogleService-Info.plist in Resources */,
 				74E286731E09261B004A99BE /* Assets.xcassets in Resources */,
 				74E2866E1E09261B004A99BE /* Main.storyboard in Resources */,
 			);
@@ -175,16 +245,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DB301511209F3782C817C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keeper/Pods-Keeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431E46557E662F9EB30D9D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1924FCCB241C5508A156B99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keeper/Pods-Keeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74E286611E09261B004A99BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989537A71E12233E00A8F70A /* SecondViewController.swift in Sources */,
-				74E2866B1E09261B004A99BE /* ViewController.swift in Sources */,
+				989537A71E12233E00A8F70A /* PasswordViewController.swift in Sources */,
+				74E2866B1E09261B004A99BE /* MainViewController.swift in Sources */,
 				988473DB1E12B9510081C6CE /* MainTabBarController.swift in Sources */,
-				989537A91E1223E900A8F70A /* ThirdViewController.swift in Sources */,
+				98A473161E1D071E00B7A25D /* VaultViewController.swift in Sources */,
+				989537A91E1223E900A8F70A /* SignInViewController.swift in Sources */,
+				9881AC901E13738700596F69 /* LoginViewController.swift in Sources */,
+				9801F8FD1E16137E00377C65 /* User.swift in Sources */,
 				74E286711E09261B004A99BE /* Keeper.xcdatamodeld in Sources */,
+				9876DC741E1ADF01007E9EC4 /* RoundedOutlineView.swift in Sources */,
+				98A473141E1CF22E00B7A25D /* SWRevealViewController.m in Sources */,
+				987403C71E1654300089302D /* MasterPasswordController.swift in Sources */,
 				74E286691E09261B004A99BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,13 +428,19 @@
 		};
 		74E2867B1E09261B004A99BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE418DEFA2FF62F237C781F /* Pods-Keeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Keeper/Keeper.entitlements;
+				DEVELOPMENT_TEAM = K3SZSW5T69;
 				INFOPLIST_FILE = Keeper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.Keeper;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.keeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Keeper/Keeper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -318,13 +448,18 @@
 		};
 		74E2867C1E09261B004A99BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83799F9E21B5C7389B2B1E8 /* Pods-Keeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Keeper/Keeper.entitlements;
+				DEVELOPMENT_TEAM = K3SZSW5T69;
 				INFOPLIST_FILE = Keeper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.Keeper;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.keeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Keeper/Keeper-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
