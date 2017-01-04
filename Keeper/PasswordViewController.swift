@@ -27,7 +27,11 @@ class PasswordViewController: UIViewController {
     @IBAction func handlePassword(_ sender: Any) {
         
         user.password = password.text
+<<<<<<< HEAD
         
+=======
+        user.email = emailAddress.text
+>>>>>>> f8adce87445219d4e7aae4b51e81077be3a4f60b
         if user.emptyPassword() == true {
             
             let alertController = UIAlertController(title: "Hello  Friends", message: "Please enter your password", preferredStyle: .alert)

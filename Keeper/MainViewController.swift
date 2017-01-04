@@ -15,7 +15,11 @@ class MainViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
        self.user = User()
+=======
+        self.user = User()
+>>>>>>> f8adce87445219d4e7aae4b51e81077be3a4f60b
     }
     
     

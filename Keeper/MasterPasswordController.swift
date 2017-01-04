@@ -11,13 +11,17 @@ import Firebase
 
 class MasterPasswordViewController: UIViewController {
     
+<<<<<<< HEAD
     var user: User!
     
+=======
+>>>>>>> f8adce87445219d4e7aae4b51e81077be3a4f60b
     @IBOutlet weak var emailAddress: UITextField!
     @IBOutlet weak var masterPassword: UITextField!
     
      override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         
       
     }
@@ -72,6 +76,14 @@ class MasterPasswordViewController: UIViewController {
             })
         */
         })
+=======
+    }
+
+    @IBAction func handleMasterPassword(_ sender: UIButton) {
+    }
+    
+    @IBAction func handleSignup(_ sender: Any) {
+>>>>>>> f8adce87445219d4e7aae4b51e81077be3a4f60b
     }
     
 }
